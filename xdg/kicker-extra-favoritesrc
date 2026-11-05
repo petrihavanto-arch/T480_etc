@@ -1,0 +1,6 @@
+[General]
+Prepend=systemsettings.desktop;org.kubuntu.manage-software.desktop;org.kde.dolphin.desktop;org.kde.konsole.desktop;preferred://browser;org.kde.kate.desktop;libreoffice-startcenter.desktop;org.kde.plasma-systemmonitor.desktop;
+IgnoreDefaults=true
+
+# preferred://email does not work
+

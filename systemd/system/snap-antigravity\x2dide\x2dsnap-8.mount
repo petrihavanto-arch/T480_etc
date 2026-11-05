@@ -1,0 +1,15 @@
+[Unit]
+Description=Mount unit for antigravity-ide-snap, revision 8
+After=snapd.mounts-pre.target
+Before=snapd.mounts.target
+
+[Mount]
+What=/var/lib/snapd/snaps/antigravity-ide-snap_8.snap
+Where=/snap/antigravity-ide-snap/8
+Type=squashfs
+Options=nodev,ro,x-gdu.hide,x-gvfs-hide
+LazyUnmount=yes
+
+[Install]
+WantedBy=snapd.mounts.target
+WantedBy=multi-user.target

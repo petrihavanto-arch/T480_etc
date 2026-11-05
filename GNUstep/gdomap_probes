@@ -1,0 +1,6 @@
+# Addresses to probe for the GNUstep name service.  If this file does
+# not contain any valid addresses, the local networks are probed.
+# Note that for security reasons probing is disabled so if you want to
+# enable it you must remove the "-p" option in /etc/default/gdomap
+# and restart the gdomap daemon.
+127.0.0.1

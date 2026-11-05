@@ -1,0 +1,6 @@
+# This file could not be automatically migrated to a .sources file during the upgrade.
+# Please see sources.list(5) (or https://manpages.ubuntu.com/manpages/man5/sources.list.5.html)
+# for details on how to migrate manually.
+
+# deb [signed-by=/usr/share/keyrings/synaptics-repository-keyring.gpg] https://www.synaptics.com/sites/default/files/Ubuntu stable main
+# deb [signed-by=/usr/share/keyrings/synaptics-repository-keyring.gpg] https://www.synaptics.com/sites/default/files/Ubuntu stable non-free

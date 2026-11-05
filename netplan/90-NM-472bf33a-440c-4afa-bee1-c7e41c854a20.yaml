@@ -1,0 +1,24 @@
+network:
+  version: 2
+  wifis:
+    NM-472bf33a-440c-4afa-bee1-c7e41c854a20:
+      renderer: NetworkManager
+      match:
+        name: "wlp3s0"
+      dhcp4: true
+      dhcp6: true
+      access-points:
+        "5GCPE_5E01C0_5GHz":
+          auth:
+            key-management: "psk"
+            password: "6P45324Q84"
+          networkmanager:
+            uuid: "472bf33a-440c-4afa-bee1-c7e41c854a20"
+            name: "5GCPE_5E01C0_5GHz"
+            passthrough:
+              ipv6.addr-gen-mode: "default"
+              ipv6.ip6-privacy: "-1"
+              proxy._: ""
+      networkmanager:
+        uuid: "472bf33a-440c-4afa-bee1-c7e41c854a20"
+        name: "5GCPE_5E01C0_5GHz"
